@@ -1,0 +1,55 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .hero-container,
+[dir="rtl"] .course-footer,
+[dir="rtl"] .feature-card {
+  text-align: right;
+}
+
+[dir="rtl"] .language-switcher {
+  left: 1rem;
+  right: auto;
+}
+
+[dir="rtl"] .course-badge {
+  right: 0.75rem;
+  left: auto;
+}
+
+[dir="rtl"] .language-select {
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  background-position: left 0.5rem center;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+} 

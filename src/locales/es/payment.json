@@ -1,0 +1,16 @@
+{
+  "loginRequired": "Por favor inicia sesión para inscribirte en este curso",
+  "alreadyEnrolled": "Ya estás inscrito en este curso",
+  "paymentSuccess": "¡Pago exitoso! Ahora estás inscrito en el curso",
+  "enrollmentError": "Hubo un error al procesar tu inscripción. Por favor intenta de nuevo",
+  "processing": "Procesando...",
+  "enrollNow": "Inscribirse Ahora",
+  "completePayment": "Completar Pago",
+  "oneTimePayment": "Pago único",
+  "paymentProcessing": "Procesando tu pago...",
+  "cardDetails": "Detalles de la Tarjeta",
+  "testCardInfo": "Usar tarjeta de prueba: 4242 4242 4242 4242",
+  "paymentAmount": "Monto del Pago",
+  "submitPayment": "Realizar Pago",
+  "paymentError": "Hubo un error al procesar tu pago"
+} 
